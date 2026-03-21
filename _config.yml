@@ -1,0 +1,5 @@
+
+url: "https://standardsnotforce.org"
+
+plugins:
+  - jekyll-sitemap
