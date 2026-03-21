@@ -4,10 +4,22 @@ title: "Standards Not Force"
 url: "https://standardsnotforce.org"
 baseurl: ""
 
+tagline: Standards, Not Force is a lawful, nonviolent civic standards initiative that protects families and stabilizes communities through education and transparency.
+description: "Standards, Not Force: How We Hold Institutions Accountable Without Violence This address examines how institutions can be held accountable without violence or escalation. I discuss why chaos fails, what history teaches about durable civic pressure, and how disciplined, coordinated action protects communities while influencing institutional change"
+
 # Author / Social (Used for Twitter Cards/Open Graph)
 author:
-  name: "Standards Not Force Community"
+  name: "Standards Not Force"
   # twitter: "your_handle" # Optional
+
+
+social:
+  name: Standards Not Force
+  links:
+    - https://substack.com/@standardsnotforce
+    - https://www.youtube.com/@FORMERBLACKPANTHERSPEAKS
+    - https://www.reddit.com/r/StandardsNotForce
+    - https://bsky.app/profile/standardsnotforce.bsky.social
 
 
 markdown: kramdown
