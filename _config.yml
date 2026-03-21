@@ -1,8 +1,34 @@
 
+
+title: "Standards Not Force"
 url: "https://standardsnotforce.org"
+baseurl: ""
+
+# Author / Social (Used for Twitter Cards/Open Graph)
+author:
+  name: "Standards Not Force Community"
+  # twitter: "your_handle" # Optional
+
+
+markdown: kramdown
 
 plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
+
+# Analytics (PostHog)
+# This makes it easy to swap IDs without hunting through HTML files
 
 posthog:
   tracking_id: phc_UjmS6WA0gYTWKOjcpwJVMXQ5MXBaB5wUsZwhZ7FZlMV
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - .jekyll-cache/
+  - README.md
