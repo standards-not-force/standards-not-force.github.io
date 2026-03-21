@@ -3,3 +3,6 @@ url: "https://standardsnotforce.org"
 
 plugins:
   - jekyll-sitemap
+
+posthog:
+  tracking_id: phc_UjmS6WA0gYTWKOjcpwJVMXQ5MXBaB5wUsZwhZ7FZlMV
